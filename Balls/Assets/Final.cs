@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    int contBalls = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,12 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D objecteCollisionat)
     {
-        if (objecteCollisionat.gameObject.tag == "Pelota")
+        
+            contBalls++;
             Destroy(objecteCollisionat.gameObject);
+            Debug.Log("S'han escapat " + contBalls + " boles");
+
+     
+
     }
 }
