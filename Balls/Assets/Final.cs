@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Final : MonoBehaviour
 {
     int contBalls = 0;
     // Start is called before the first frame update
