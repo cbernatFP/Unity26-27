@@ -23,7 +23,6 @@ public class Brick1Behaviour : MonoBehaviour
         hits++;
         if (hits == 1) {
             sr.color = new Color32(255, 97, 169, 255);
-
         }
         else if (hits == 2) {
             sr.color = new Color32(255, 34, 136, 255);
